@@ -38,6 +38,12 @@ changes are now in the **Head** of your local working copy. To send those chnage
     
 **note:** change *master* to whatever branch you want to push your changes to.
 
+you may want to check the working tree status by using
+
+    git status
+    
+which will display the state of the working directory and the staging area. It lets you see which changes have been stages, which haven't, and which files aren't being tracked by Git. 
+
 ### Branching
 branches are used to develop features isolated from each other. The *master* branch is the 'default' branch when you create a repository. Use other branches for development and merge them back to the master branch uppn completion. 
 
@@ -108,6 +114,7 @@ or see only the commits of a certain author by using
 to look at more possible parameters use
 
     git log --help
+    
     
 ### Replace local Changes
 in case anything went wrong you can replace local changes using the command
