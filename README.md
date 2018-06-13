@@ -94,9 +94,7 @@ to bring upstream changes into your repository.
 
 #### Visualizing the above mentiond concepts:
 
-<p align="center">
-  <img src="Git-How-to/upstream-vs-origin.svg" width="350"/>
-</p>
+![Upstream & Origin|60%](upstream-vs-origin.svg)
 
 ### Log
 in its simplest form, you can view a repository history using 
